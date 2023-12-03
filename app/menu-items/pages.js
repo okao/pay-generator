@@ -17,27 +17,28 @@ const pages = {
     type: 'group',
     children: [
         {
-            id: 'authentication',
-            title: 'Reservations ',
-            type: 'collapse',
-            icon: icons.IconAlignBoxBottomLeft,
+            id: 'companies',
+            title: 'Companies ',
+            type: 'item',
+            url: '/dashboard/companies/manage_companies',
+            icon: icons.IconAlignBoxBottomLeft
 
-            children: [
-                {
-                    id: 'reservations',
-                    title: 'Reservations',
-                    type: 'item',
-                    url: '/pages/login/login3',
-                    target: true
-                },
-                {
-                    id: 'reports',
-                    title: 'Reports',
-                    type: 'item',
-                    url: '/pages/register/register3',
-                    target: true
-                }
-            ]
+            // children: [
+            //     {
+            //         id: 'reservations',
+            //         title: 'Reservations',
+            //         type: 'item',
+            //         url: '/pages/login/login3',
+            //         target: true
+            //     },
+            //     {
+            //         id: 'reports',
+            //         title: 'Reports',
+            //         type: 'item',
+            //         url: '/pages/register/register3',
+            //         target: true
+            //     }
+            // ]
         },
         {
             id: 'others',
